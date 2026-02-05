@@ -13,7 +13,7 @@ public class Connect {
 
             // Connect to database
             connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/banksystem", "root", "#kunal@4158"
+                    "jdbc:mysql://localhost:3306/banksystem", "root", "#kunal4158"
             );
 
             statement = connection.createStatement();
